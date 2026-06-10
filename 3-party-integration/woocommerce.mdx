@@ -1,6 +1,6 @@
 ---
-title: "Integrate  Convertalk with WooCommerce"
-description: "This page contains the stepwise tutorial for WooCommerce Integration with  Convertalk."
+title: "Integrate  ZaamAIBot with WooCommerce"
+description: "This page contains the stepwise tutorial for WooCommerce Integration with  ZaamAIBot."
 ---
 
 ### **Prerequisites:**
@@ -10,9 +10,9 @@ The following prerequisites need to be met when you are integrating WooCommerce 
 - Having a WhatsApp Chatbot
 - Having a WooCommerce Web Store
 
-### **Step 1 of 4: Login to your  Convertalk Account and Select Application to Integrate:**
+### **Step 1 of 4: Login to your  ZaamAIBot Account and Select Application to Integrate:**
 
-1. Login to your  Convertalk account. Now, select and click the WhatsApp chatbot you want to integrate with WooCommerce. Click on the “**Third-party Apps Integration”.**
+1. Login to your  ZaamAIBot account. Now, select and click the WhatsApp chatbot you want to integrate with WooCommerce. Click on the “**Third-party Apps Integration”.**
 2. Go to WooCommerce integration either by:
    - Searching for WooCommerce on the search bar available, or
    - Scrolling down to WooCommerce.
@@ -24,24 +24,24 @@ Once you are logged into your WooCommerce account, follow the steps below:
 
 1. Go to Settings → Advanced → Webhooks.
 2. Click on add a webhook → Select event → order created / order updated / order deleted
-3. Add API URL: “https://api.v7. Convertalk.com/whatsapp/woo-commerce/{{phoneNumberId}}”
+3. Add API URL: “https://api.v7. ZaamAIBot.com/whatsapp/woo-commerce/{{phoneNumberId}}”
 
    <Info>
      The API URL is the same as the Delivery URL
    </Info>
 
 <Info>
-  You need to create a separate webhook for every information you want your chatbot to fetch. For example, for orders created, orders updated, and orders deleted, there are three separate webhooks. If you want to configure all of them, you should add the same in woo-commerce. In  Convertalk, you can have separate configurations for orders updated with different statuses and one for orders created and orders deleted.
+  You need to create a separate webhook for every information you want your chatbot to fetch. For example, for orders created, orders updated, and orders deleted, there are three separate webhooks. If you want to configure all of them, you should add the same in woo-commerce. In  ZaamAIBot, you can have separate configurations for orders updated with different statuses and one for orders created and orders deleted.
 </Info>
 
-### **Step 2.2 of 4: Find your Phone Number ID in  Convertalk**
+### **Step 2.2 of 4: Find your Phone Number ID in  ZaamAIBot**
 
 1. Go to your desired WhatsApp chatbot
 2. Click on Bot Settings
 3. Click on WhatsApp Profile
 4. Find the phone number ID field, and copy and paste it inside the WooCommerce webhook settings.
 
-### **Step 3 of 4: Edit the integration configurations in  Convertalk**
+### **Step 3 of 4: Edit the integration configurations in  ZaamAIBot**
 
 A variety of actions are available for automation of messages after going to the “**Automated Messages**” tab, such as:
 
@@ -60,7 +60,7 @@ This is done through the manual toggling of the button, following which user is 
 
 3. **Order Fulfillment**
 
-When an order is shipped,  Convertalk can automatically notify customers with a **shipment confirmation message**.
+When an order is shipped,  ZaamAIBot can automatically notify customers with a **shipment confirmation message**.
 
 This is done through the manual toggling of the button, following which user is prompted select a template of the message that needs to be sent. If some variables are included in the template, the input of those values are also necessary, along with fallback values, and additional header media(additional image, video, or document)
 
@@ -79,13 +79,13 @@ For the correct implementation of this feature, the given code snippet must be p
 
 ### **Step 4 of 4: Test your Integration Setup with Data:**
 
-Once you have established a connection between ** Convertalk** and **the WooCommerce website, you are ready** for your first test lead. You can test your integration setup by creating a dummy lead on the bot. This lead should appear in your  Convertalk dashboard as well as in the WhatsApp chatbot sent messages.
+Once you have established a connection between ** ZaamAIBot** and **the WooCommerce website, you are ready** for your first test lead. You can test your integration setup by creating a dummy lead on the bot. This lead should appear in your  ZaamAIBot dashboard as well as in the WhatsApp chatbot sent messages.
 
 #### **Still Not Working, Let’s Troubleshoot\!**
 
 If you are not getting dummy lead, it may be due to the multiple reasons:
 
 - Wrong Authorization Details added- You will be required to check and see if all the authorization credentials such as API Token, API key, and/or URL has been entered correctly.
-- Free plan- You are not subscribed to the paid plan on  Convertalk as integration works only in paid plan.
+- Free plan- You are not subscribed to the paid plan on  ZaamAIBot as integration works only in paid plan.
 
  

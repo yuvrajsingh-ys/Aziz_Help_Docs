@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
        {
-        "tab": "How Convertalk Works?",
+        "tab": "How ZaamAIBot Works?",
         "groups": [
            {
             "group": "Onboarding",
@@ -22,12 +22,12 @@
           {
             "group": "Create New Chatbot",
             "pages": [
-              "how-Convertalk-works/website_chatbot",
-              "how-Convertalk-works/landing_page_chatbot",
-              "how-Convertalk-works/whatsapp_chatbot",
-              "how-Convertalk-works/instagram_chatbot",
-              "how-Convertalk-works/facebook_chatbot",
-              "how-Convertalk-works/telegram_chatbot"            ]
+              "how-ZaamAIBot-works/website_chatbot",
+              "how-ZaamAIBot-works/landing_page_chatbot",
+              "how-ZaamAIBot-works/whatsapp_chatbot",
+              "how-ZaamAIBot-works/instagram_chatbot",
+              "how-ZaamAIBot-works/facebook_chatbot",
+              "how-ZaamAIBot-works/telegram_chatbot"            ]
           },
           {
             "group": "Edit Your Chatflow",
@@ -305,15 +305,15 @@
             ]
           },
           {
-            "group": "Must Know How Of Convertalk",
+            "group": "Must Know How Of ZaamAIBot",
             "pages": [
-              "must-know-how-of-Convertalk/manage_use_custom_attributes",
-              "must-know-how-of-Convertalk/call_external_api",
-              "must-know-how-of-Convertalk/managing_team_roles",
-              "must-know-how-of-Convertalk/unlocking_botpenguin_ai",
-              "must-know-how-of-Convertalk/support_agent_guide",
-              "must-know-how-of-Convertalk/whatsapp_notification",
-              "must-know-how-of-Convertalk/chatbot_user_authentication"
+              "must-know-how-of-ZaamAIBot/manage_use_custom_attributes",
+              "must-know-how-of-ZaamAIBot/call_external_api",
+              "must-know-how-of-ZaamAIBot/managing_team_roles",
+              "must-know-how-of-ZaamAIBot/unlocking_botpenguin_ai",
+              "must-know-how-of-ZaamAIBot/support_agent_guide",
+              "must-know-how-of-ZaamAIBot/whatsapp_notification",
+              "must-know-how-of-ZaamAIBot/chatbot_user_authentication"
             ]
           }
           
@@ -341,9 +341,9 @@
             ]
           },
           {
-            "group": "Convertalk Roadmap",
+            "group": "ZaamAIBot Roadmap",
             "pages": [
-              "Convertalk-roadmap/development_timeline"
+              "ZaamAIBot-roadmap/development_timeline"
             ]
           },
           {
@@ -382,23 +382,23 @@
     "global": {
     }
   },
-  "favicon": "ConvertalkLogo.png",
+  "favicon": "ZaamAIBotLogo.png",
 
   "logo": {
-    "light": "/logo/Light_and_Dark_Convertalk.png",
-    "dark": "/logo/Light_and_Dark_Convertalk.png"
+    "light": "/logo/Light_and_Dark_ZaamAIBot.png",
+    "dark": "/logo/Light_and_Dark_ZaamAIBot.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:info@convertalk.com"
+        "href": "mailto:info@ZaamAIBot.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://bot.convertalk.com"
+      "href": "https://bot.ZaamAIBot.com"
     }
   },
   "footer": {

@@ -1,6 +1,6 @@
 ---
-title: "Integrate  Convertalk with Pabbly"
-description: "This guide provides step-by-step instructions on how to integrate Pabbly with  Convertalk to collect leads captured on  Convertalk and transfer them to a third-party application, such as Google Sheets."
+title: "Integrate  ZaamAIBot with Pabbly"
+description: "This guide provides step-by-step instructions on how to integrate Pabbly with  ZaamAIBot to collect leads captured on  ZaamAIBot and transfer them to a third-party application, such as Google Sheets."
 ---
 
 1. **Set the Action App in Pabbly**
@@ -25,29 +25,29 @@ Pabbly is an automation tool that connects different apps and services, allowing
 
 ### **What are Triggers?**
 
-A trigger is an event that starts an automation. For example, when a new lead is captured on  Convertalk, that event can trigger an action in another app. Triggers tell Pabbly when to start a workflow.
+A trigger is an event that starts an automation. For example, when a new lead is captured on  ZaamAIBot, that event can trigger an action in another app. Triggers tell Pabbly when to start a workflow.
 
 ### **What are Actions?**
 
 An action is what happens after a trigger. Once a trigger occurs, Pabbly communicates the assigned action to the end application, like sending lead data to Google Sheets or notifying a team on Slack. Actions complete the automation process.
 
-### **How Pabbly Helps with  Convertalk**
+### **How Pabbly Helps with  ZaamAIBot**
 
-Integrating Pabbly with  Convertalk allows businesses to automate workflows and enhance chatbot efficiency. When a **new contact is created**, a **message is received in chat**, or a **WhatsApp order is placed**, these triggers can initiate automated actions in other applications. Similarly, when triggered by a third-party app through Pabbly,  Convertalk can **send WhatsApp templates, update custom attributes, send session messages, or add new contacts**. This seamless automation reduces manual work, improves response time, and ensures smooth communication across platforms.
+Integrating Pabbly with  ZaamAIBot allows businesses to automate workflows and enhance chatbot efficiency. When a **new contact is created**, a **message is received in chat**, or a **WhatsApp order is placed**, these triggers can initiate automated actions in other applications. Similarly, when triggered by a third-party app through Pabbly,  ZaamAIBot can **send WhatsApp templates, update custom attributes, send session messages, or add new contacts**. This seamless automation reduces manual work, improves response time, and ensures smooth communication across platforms.
 
 ### **Prerequisites**
 
-The following prerequisites need to be met when you are integrating Pabbly with  Convertalk.
+The following prerequisites need to be met when you are integrating Pabbly with  ZaamAIBot.
 
 - An active Pabbly account with available **task credits** for automation processes.
 
 ---
 
-### **Steps to Integrate Pabbly with  Convertalk**
+### **Steps to Integrate Pabbly with  ZaamAIBot**
 
-#### **Section A: Setting up Integration in  Convertalk**
+#### **Section A: Setting up Integration in  ZaamAIBot**
 
-1. Login to your  Convertalk account and select the chatbot you want to integrate with Pabbly. Click on the “**Third-party Apps Integration”.**
+1. Login to your  ZaamAIBot account and select the chatbot you want to integrate with Pabbly. Click on the “**Third-party Apps Integration”.**
 2. Go to Pabbly integration either by:
    1. Searching for Pabbly on the search bar available, or
    2. Scrolling down to Pabbly.
@@ -56,7 +56,7 @@ The following prerequisites need to be met when you are integrating Pabbly with 
 5. Click on the “**Connect**” button to continue forward.
 6. Click on “**Add Pabbly Webhook URL”.**
 7. A small screen will show up as shown below. Select the type of trigger event you want from the “**Select Event**”. These can include:
-   - **New Lead**: Trigger which occurs whenever a new contact is created in  Convertalk.
+   - **New Lead**: Trigger which occurs whenever a new contact is created in  ZaamAIBot.
    - **New Incoming Messages**: Occurs when a new message is incoming in the selected chatflow being integrated.
    - **New WhatsApp Order Created**: When a new order is placed.
 8. Now, let us go over to Pabbly and start the setup of our workflow there.
@@ -65,7 +65,7 @@ The following prerequisites need to be met when you are integrating Pabbly with 
   In this example, we will be adding a “New contact created” as the trigger. All other triggers are configured in exactly the same manner.
 </Info>
 
-#### **Section B: Setting up  Convertalk Trigger on Pabbly:**
+#### **Section B: Setting up  ZaamAIBot Trigger on Pabbly:**
 
 1. Sign-up or login to your Pabbly Connect Account. Post login, you will arrive at the following screen. Click on the “**Create Workflow**” button on the top-right.
 
@@ -73,13 +73,13 @@ The following prerequisites need to be met when you are integrating Pabbly with 
      Alternatively, if a workflow already exists, click on that.
    </Info>
 2. Provide a name for the workflow, and select the desired folder for the same. Leave the folder name as is if uncertain.
-3. Upon clicking “**Create**”, automatic redirection should occur to the workflow as shown below. For creation of trigger from  Convertalk, search “** Convertalk**” in the “**Search App**”.
-4. After searching and selecting  Convertalk, select the same type of “**Trigger Event**” you want from the dropdown menu as in  Convertalk. These can include:
-   - **New Lead**: Trigger which occurs whenever a new contact is created in  Convertalk.
+3. Upon clicking “**Create**”, automatic redirection should occur to the workflow as shown below. For creation of trigger from  ZaamAIBot, search “** ZaamAIBot**” in the “**Search App**”.
+4. After searching and selecting  ZaamAIBot, select the same type of “**Trigger Event**” you want from the dropdown menu as in  ZaamAIBot. These can include:
+   - **New Lead**: Trigger which occurs whenever a new contact is created in  ZaamAIBot.
    - **New Incoming Messages**: Occurs when a new message is incoming in the selected chatflow being integrated.
    - **New WhatsApp Order Created**: When a new order is placed.
-5. Upon selection, the box will expand as seen below, including in itself several more details. Copy the “**Webhook URL**” and paste it in the “**Pabbly Webhook URL**” in  Convertalk Dashboard.
-6. Paste the copied Webhook URL in the “**Pabbly Webhook URL**” on  Convertalk, and then click “**Verify & Add Webhook URL**”.
+5. Upon selection, the box will expand as seen below, including in itself several more details. Copy the “**Webhook URL**” and paste it in the “**Pabbly Webhook URL**” in  ZaamAIBot Dashboard.
+6. Paste the copied Webhook URL in the “**Pabbly Webhook URL**” on  ZaamAIBot, and then click “**Verify & Add Webhook URL**”.
 
    <Info>
      Using the "click here" button, the attributes passed on to Pabbly can be configured. These can include standard attributes, or user-designed custom attributes.
@@ -87,9 +87,9 @@ The following prerequisites need to be met when you are integrating Pabbly with 
 7. Click on “**Integrate**” to complete the integration, or click on “**Add Pabbly Webhook URL**” to add more webhook triggers.
 8. For checking of successful integration, go back to Pabbly, and check the “**Response Received**”. The labels(left side column) should contain all the attributes being passed as selected in the “Click here” button. The data shown currently is dummy data.
 
-And the trigger setting has been completed\! Configure the corresponding action using the “Action box” on Pabbly(below Trigger box), and enjoy workflow benefits of  Convertalk with other applications.
+And the trigger setting has been completed\! Configure the corresponding action using the “Action box” on Pabbly(below Trigger box), and enjoy workflow benefits of  ZaamAIBot with other applications.
 
-#### **Section C: Setting up  Convertalk Action on Pabbly:**
+#### **Section C: Setting up  ZaamAIBot Action on Pabbly:**
 
 1. Sign-up or login to your Pabbly Connect Account. Post login, you will arrive at the following screen. Click on the “**Create Workflow**” button on the top-right.
 2. Provide a name for the workflow, and select the desired folder for the same. Leave the folder name as is if uncertain.
@@ -100,19 +100,19 @@ And the trigger setting has been completed\! Configure the corresponding action 
 3. Upon clicking “**Create**”, automatic redirection should occur to the workflow as shown below. Go to the “**Action**” box.
 
    <Info>
-     Have a working Trigger before proceeding. Below steps only detail the set-up of  Convertalk Action, not the creation of Trigger for any third parties.
+     Have a working Trigger before proceeding. Below steps only detail the set-up of  ZaamAIBot Action, not the creation of Trigger for any third parties.
    </Info>
-4. Search for “** Convertalk**” in the “**Search App**” area, and select the same.
+4. Search for “** ZaamAIBot**” in the “**Search App**” area, and select the same.
 5. Select the action that you wish to occur. Options include:
-   - **Add Contact** – Add a new contact to your  Convertalk account.
+   - **Add Contact** – Add a new contact to your  ZaamAIBot account.
    - **Send Session Message** – Send WhatsApp session messages.
    - **Update Contact Attributes** – Update user-specific custom attributes.
    - **Send Template Message** – Send a WhatsApp template message.
 6. Upon the selection of the desired Action Event, a side panel will open up. Select the type of connection wanted:
-   - Add New Connection: The connection that will be established with  Convertalk
+   - Add New Connection: The connection that will be established with  ZaamAIBot
    - Select Existing Connection: Selecting an already existing connection for the purposes of communication
-7. Enter the API Token, that in the developer section of your  Convertalk Account, and add the same to the “**Token**” section and click “**Save**”.
-8. Post successful save, information will be need to be entered or mapped that will be sent to  Convertalk. Edit the same in the given columns.
+7. Enter the API Token, that in the developer section of your  ZaamAIBot Account, and add the same to the “**Token**” section and click “**Save**”.
+8. Post successful save, information will be need to be entered or mapped that will be sent to  ZaamAIBot. Edit the same in the given columns.
 9. After entering all the details, click on the “**Save & Send Test Request**”. If all configurations are correct, a success message as shown below should come.
 
    <Info>

@@ -5,11 +5,11 @@ description: "This section contains the Leads and Chat API references"
 
 ## **Get the essentials first\!**
 
-To use the  Convertalk APIs, You need to insure that you have following details with you.
+To use the  ZaamAIBot APIs, You need to insure that you have following details with you.
 
 A. **UUID** - You can get the UUID from the local web session storage as show in the image below:
 
-![251 Website Contacts Meta Data  Convertalk Resource C 1 Pn](/images/api-references/website-contact-metadata/251.website_contacts__meta_data__Convertalk_resource_c-1.png)
+![251 Website Contacts Meta Data  ZaamAIBot Resource C 1 Pn](/images/api-references/website-contact-metadata/251.website_contacts__meta_data__ZaamAIBot_resource_c-1.png)
 
 B. **Bot ID & User ID:** One can get the Bot ID and User ID from your Bot Script or Bot page URL. Below is the sample Example.
 
@@ -18,7 +18,7 @@ For Chatbot page URL
 ```
 // Chatbot Page URL Structure
 
-https://page. Convertalk.com/BotId/CustomerId
+https://page. ZaamAIBot.com/BotId/CustomerId
 
 // The first value after .com is the BotId and second value is the CustomerId.
 ```
@@ -28,7 +28,7 @@ For Chatbot Script
 ```html
 // Chatbot Script Structure
 
-<script id=" Convertalk-messenger-widget" src="https://cdn. Convertalk.com/ Convertalk.js" defer>BotId,CustomerId</script>
+<script id=" ZaamAIBot-messenger-widget" src="https://cdn. ZaamAIBot.com/ ZaamAIBot.js" defer>BotId,CustomerId</script>
 
 // The first value after defer> is the BotId & second value is the CustomerId.
 ```
@@ -41,13 +41,13 @@ Now you are ready to run the POC
 
 Please use the below APIs in order to play with your leads and chat data.
 
-### **Create a lead in the  Convertalk**
+### **Create a lead in the  ZaamAIBot**
 
 As soon as any user opens up the Bot, It creates one UUId; pass the same along with the other required details to create and update the lead's details.
 
 ## **API to update a chat/lead data**
 
-`PUT` `https://api.v7. Convertalk.com/inbox/direct/lead`
+`PUT` `https://api.v7. ZaamAIBot.com/inbox/direct/lead`
 
 As soon as any user opens up the Bot, It creates one UUId; pass the same along with the other required details to create and update the lead's details.
 
@@ -110,7 +110,7 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
 
 ## **API to get listing of chats/leads**
 
-`GET` `https://api.v7. Convertalk.com/inbox/direct/chats`
+`GET` `https://api.v7. ZaamAIBot.com/inbox/direct/chats`
 
 To get the listing of the leads and its meta data, Hit the below API with mandatory details.
 
@@ -145,7 +145,7 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
             "lastMessage": {
                 "at": "2023-02-01T06:00:20.000Z",
                 "by": "bot",
-                "text": "Welcome to  Convertalk. I am here to help you."
+                "text": "Welcome to  ZaamAIBot. I am here to help you."
             },
             "lastSeenAt": "2023-02-01T06:00:21.000Z",
             "profile": {
@@ -210,4 +210,4 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
 
 ### **❓ Got any questions?**
 
-If you have any questions, you can look into our repository of FAQs, most likely, you will find your answer here, If not, write us at [support@ Convertalk.com](mailto:support@ Convertalk.com).
+If you have any questions, you can look into our repository of FAQs, most likely, you will find your answer here, If not, write us at [support@ ZaamAIBot.com](mailto:support@ ZaamAIBot.com).
